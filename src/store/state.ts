@@ -1,9 +1,13 @@
 export interface State {
   user: any;
   players: any[];
+  game: any;
 }
 
 export const initialState: State = {
   user: {},
-  players: []
+  players: [],
+  game: {
+    isRolling: false
+  }
 }
